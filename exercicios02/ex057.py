@@ -1,7 +1,7 @@
 sexo = 0
 while sexo != 'M' and sexo != 'F':
-    sexo = str(input('Digite seu sexo [M/F]: '))
+    sexo = str(input('Digite seu sexo [M/F]: ')).upper()
     if sexo != 'M' and sexo != 'F':
-        print("digite novamente")
+        print("Dado inválido, por favor digite novamente")
     
-print('Fim')
+print('Su resposta foi: {}'.format(sexo))
