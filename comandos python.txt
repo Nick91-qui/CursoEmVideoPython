@@ -1,0 +1,49 @@
+python -m pip install  > no terminal para instalar bibliotecas
+
+Análise de string:
+len() - tamanho da string;
+count('letra', LetraInicial, LetraFinal) conta o numero de letras;
+find() encontra a posição na lista; (-1 = não existe)
+'string' in lista = tem a palara '' na [lista]
+
+lista.replace('palavra da lista', 'palavra nova')
+lista.upper() = coloca toda a lista em maiúsculo
+lista.lower() = coloca toda a lista em minúsculo
+lista.captilize() = primeira letra maiucula
+lista.title() = primeira letra de cada palavra maiuscula
+frase.strip() = remove espaços inúteis no inicio e no fim
+frase.rstrip() = remove espaçõs inúteis a direita
+frase.lstrip() = remove espaçõs inúteis a esquerda
+frase.split() = divisão nos espaços criando listas para cada palavra
+'-'.join(frase)
+
+
+CONDIÇÕES:
+
+if variavel.metodo().
+    bloco
+else:
+    bloco.
+
+if simplificado
+variavel
+print('mensagem' if variavel.metodo() else 'mensagem')
+
+CODIGO ANSI 
+
+\033[ESTILO;CORTEXTO;CORFUNDOm, , \033[m
+ESTILO:
+0 = nenhum
+1 = negrito
+2 = sublinhado
+7 = negativo
+
+CORTEXTO        CORFUNDO
+30 = branco     = 40
+31 = vermelho   = 41
+32 = verde      = 42
+33 = amarelo    = 43
+34 = azul       = 44
+35 = magenta    = 45
+36 = ciano      = 46
+37 = cinza      = 47
